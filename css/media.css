@@ -1,0 +1,280 @@
+@media screen and (max-width: 1920px){
+
+}
+@media screen and (max-width: 1600px){
+	
+}
+@media screen and (max-width: 1367px){
+	html {
+		font-size: 13px;
+	}
+	body.lock {
+		overflow: hidden;
+	}
+	.header {
+    	width: 100%;
+    	height: 70%;
+    	top: 0;
+    	left: 0;
+    	z-index: 1;
+    	height: auto;
+	}
+	.header:before {
+    	content: '';
+    	position: absolute;
+    	width: 100%;
+    	height: 70%;
+    	top: 0;
+    	left: 0;
+    	background: url(../img/header-bg.jpg) no-repeat center / cover;
+    	z-index: 2;
+}
+	.header__body {
+		height: 50px;
+		padding-top: 20px;
+		margin-bottom: 20vh;
+	}
+	.header__logo {
+		position: relative;
+		z-index: 5;
+	}
+	.header__burger {
+		display: block;
+		position: relative;
+		width: 30px;
+		height: 20px;
+		z-index: 4;
+		margin-left: auto;
+	}
+	.header__burger span {
+		position: absolute;
+		background-color: #fff;
+		width: 100%;
+		height: 2px;
+		top: 9px;
+		left: 0;
+		transition: all 0.3s ease 0s;
+	}
+	.header__burger:before,
+	.header__burger:after {
+		content: '';
+		background-color: #fff;
+		position: absolute;
+		width: 100%;
+		height: 2px;
+		left: 0;
+		transition: all 0.3s ease 0s;
+	}
+	.header__burger:before {
+		top: 0;
+	}
+	.header__burger:after {
+		bottom: 0;
+	}
+	.header__burger.active span {
+		transform: scale(0);
+	}
+	.header__burger.active:before {
+		transform: rotate(45deg);
+		top: 9px;
+	}
+	.header__burger.active:after {
+		transform: rotate(-45deg);
+		bottom: 9px;
+	}
+	.header__menu {
+		position: fixed;
+		top: -100%;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: #6e2726;
+		padding-top: 70px;
+		transition: all 0.3s ease;
+		overflow: auto;
+		z-index: 3;
+	}
+	.header__menu.active {
+		top: 0;
+		transition: all 0.3s ease;
+	}
+	.header__list {
+		display: block;
+	}
+	.header__list li {
+		margin-bottom: 20px;
+		padding-left: 40px;
+	}
+	.header__link {
+		font-size: 1.2rem;
+	}
+	.header__link-first {
+		margin-left: 35px;
+	}
+
+	.header__title {
+		position: relative;
+		z-index: 2;
+	}
+	.header__subtitle {
+		position: relative;
+		z-index: 2;
+	}
+	.header__btn {
+		position: relative;
+		z-index: 2;
+	}
+	.services {
+		margin-top: 100px;
+	}
+}
+@media screen and (max-width: 1198px){
+	.slider__social {
+		width: 218px;
+		height: 207px;
+		padding: 160px 55px 0px;
+	}
+}
+@media screen and (max-width: 960px){
+	html {
+		font-size: 12px;
+	}
+
+	.title::after {
+		left: 46%;
+		top: 36px;
+	}
+	.text {
+		margin: 30px 0px;
+	}
+	.services {
+		margin-top: 100px;
+		padding: 50px 0px 20px;
+	}
+	.service-item {
+		margin-bottom: 30px;
+	}
+	.services-item__icon-ring {
+    	padding: 26px;
+	}
+	.about {
+		padding: 20px 0px;
+	}
+	.works {
+		padding: 20px 0px 0px;
+	}
+	.tabs__item {
+		margin-bottom: 20px;
+	}
+	.mask-cont {
+		padding: 28px 0px 0px;
+	}
+	#blog {
+		padding: 20px 0px;
+	}
+	.blog-item__cont {
+		margin-left: 0;
+	}
+	.clients {
+		padding: 20px 0px;
+	}
+	.slider-row {
+		margin: 0px 30px 30px;
+	}
+	.slider-row img {
+		width: 100px;
+	}
+	.contacts {
+		padding: 20px 0px;
+	}
+	.contact__name {
+		width: 95%;
+	}
+}
+@media screen and (max-width: 768px){
+	.slider__social {
+    width: 245px;
+    height: 233px;
+    padding: 179px 65px 0px;
+	}
+	.mask-cont__btn {
+		width: 80px;
+		height: 30px;
+	}
+	.mask-cont__title {
+		margin-bottom: 5px;
+	}
+	.mask-cont__text {
+		margin-bottom: 5px;
+	}
+	.tabs {
+		margin-bottom: 30px;
+	}
+	.works-down__mask {
+		padding: 30px 0px;
+	}
+	.blog-item img {
+		margin-bottom: 20px;
+	}
+	.slider-row {
+		margin: 0;
+	}
+	.slider-row img {
+		width: 70px;
+	}
+}
+@media screen and (max-width: 576px){
+	.mask-cont {
+		padding: 10px 0px 0px;
+	}
+	.slider__social {
+    width: 5.65%;
+    height: 249px;
+    padding: 195px 74px 0px;
+	}
+}
+@media screen and (max-width: 480px){
+	.wrapper {
+		padding: 0px 10px;
+	}
+	.slider__social {
+    width: 5.65%;
+    height: 77%;
+    padding: 270px 100px 0px;
+	}
+	.slider__social .fa {
+    color: #fff;
+    display: block;
+    width: 45px;
+    height: 45px;
+    padding: 12px;
+    font-size: 2rem;
+	}
+	.mask-cont__btn {
+		font-size: .8rem;
+		width: 60px;
+		height: 20px;
+	}
+	.mask-cont__title {
+		font-size: 1rem;
+	}
+	.mask-cont__btn .fa {
+		margin-left: 3px;
+	}
+	.contact__btn {
+		padding: 12px 0px;
+		margin: 0px 30px 0px 0px;
+	}
+	.contact__name,
+	.contact__message {
+		margin: 15px 0px;
+		width: 85%;
+	}
+	.contact__send {
+		flex-direction: column;
+	}
+	.send__text {
+    display: block;
+    width: 95%;
+	}
+}

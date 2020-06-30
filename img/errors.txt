@@ -1,0 +1,2 @@
+[2020-05-27 17:01:17] layer "+65 0052 300, +65 88251 210 +88 01723 511 340  ": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2020-05-27 17:01:17] layer "shapedtheme@gmail.com khalilkode@gmail.com  ": Unsupported extension: com
